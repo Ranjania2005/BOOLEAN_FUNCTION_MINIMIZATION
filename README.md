@@ -56,12 +56,13 @@ RegisterNumber: 212223230170*/
 
 **RTL(1B)**
 
-![Screenshot (348)](https://github.com/user-attachments/assets/4c0d99ab-2c61-417d-a85f-d07ce28a30d0)
+![Screenshot (349)](https://github.com/user-attachments/assets/7ff6d56f-fcd0-4b5e-b79b-ccc71230eea6)
+
 
 
 **Output(1B):**
 
-![Screenshot (349)](https://github.com/user-attachments/assets/7ff6d56f-fcd0-4b5e-b79b-ccc71230eea6)
+![Screenshot (348)](https://github.com/user-attachments/assets/4c0d99ab-2c61-417d-a85f-d07ce28a30d0)
 
 
 **Result:**
