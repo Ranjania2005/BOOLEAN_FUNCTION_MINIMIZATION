@@ -31,36 +31,38 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+**Program(1A):**
+```
+ Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by: RANJANI A
 RegisterNumber: 212223230170*/
 ```
-module exp2(A,B,C,D,W,X,Y,Z,F1,F2);
-input A,B,C,D,W,X,Y,Z;
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-output F1,F2;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign x6=(X)&(~Y)&(Z);
-assign x7=(~X)&(~Y)&(Z);
-assign x8=(~W)&(X)&(Y);
-assign x9=(W)&(~X)&(Y);
-assign x10=(W)&(X)&(Y);
-assign F1=x1|x2|x3|x4|x5;
-assign F2=x6|x7|x8|x9|x10;
-endmodule
-```
-![Screenshot (335)](https://github.com/user-attachments/assets/e58b1a0b-5751-4ab0-b077-785d9d6f5459)
-**RTL**
-![Screenshot (336)](https://github.com/user-attachments/assets/4c2e127e-aaee-4728-8f1f-2dcf7455fccc)
-**Output:**
-![Screenshot (337)](https://github.com/user-attachments/assets/19b81cb0-9c3a-47c3-9c5d-b53f92f99f04)
+![Screenshot (343)](https://github.com/user-attachments/assets/0837bffd-8dc9-4001-a346-6962e0aa78c9)
+
+
+**RTL(1A)**
+
+![Screenshot (346)](https://github.com/user-attachments/assets/3a7cb762-7748-41f4-9f0a-6cc0fd1ed14c)
+
+**Output(1A):**
+
+![Screenshot (345)](https://github.com/user-attachments/assets/2e8ccefb-805e-46d9-bf04-1dfa0b3fb2cf)
+
+**Program(1B):**
+
+![Screenshot (347)](https://github.com/user-attachments/assets/08dc4d9f-c22e-4fbf-9261-a4087a2e8024)
+
+
+**RTL(1B)**
+
+![Screenshot (348)](https://github.com/user-attachments/assets/4c0d99ab-2c61-417d-a85f-d07ce28a30d0)
+
+
+**Output(1B):**
+
+![Screenshot (349)](https://github.com/user-attachments/assets/7ff6d56f-fcd0-4b5e-b79b-ccc71230eea6)
+
 
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
